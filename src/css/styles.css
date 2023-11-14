@@ -1,0 +1,22 @@
+:root {
+    --primary: #242121;
+    --secondary: #ffffff;
+    --terciary: rgb(255, 255, 10);
+
+}
+
+body {
+    background-color: var(--primary); 
+}
+
+.logo {
+    margin: 28px 36px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: -100px 1450px ;
+    font-family: 'Anton', sans-serif;
+    color: var(--terciary);
+}
