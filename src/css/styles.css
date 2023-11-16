@@ -86,6 +86,11 @@ input:focus {
     color: var(--tertiary-color);
     font-size: larger;
     letter-spacing: 1.6px;
+    text-align: center;
+}
+
+#product img {
+    border-radius: 70px;
 }
 
 

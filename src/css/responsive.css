@@ -1,0 +1,9 @@
+@media screen and (max-width: 1920px) {
+    .icons {
+        margin: 0 290px;
+    }
+
+    #main-img {
+        margin: 60px 170px;
+    }
+}
