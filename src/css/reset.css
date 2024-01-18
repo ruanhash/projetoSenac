@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #fda51c;
+    --secondary-color: #f6faf4;
+    --tertiary-color: #000000;
+    --quartenary-color: #874896;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+i {
+    color: var(--tertiary-color);
+    font-size: 1.3rem;
+}
+
+a {
+    color: var(--tertiary-color);
+    text-decoration: none;
 }

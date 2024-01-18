@@ -14,6 +14,7 @@
 
     <link rel="shortcut icon" href="" type="image/x-icon">
 
+
     <title>FitHero</title>
 </head>
 
@@ -22,13 +23,13 @@
         <div class="header">
             <div class="logo">
                 <a href="index.html" aria-label="Recarregue a página">
-                    <img src="" alt="">
+                    <img src="./src/images/logo.png" alt="logo" width="200" height="60">
                 </a>
             </div>
             <div class="search">
                 <label for="">
                     <a href="#search" aria-label="Pesquisar">
-                        <img src="./src/images/procurar.png" alt="">
+                        <i class="fas fa-magnifying-glass"></i>
                     </a>
                 </label>
                 <input id="search" type="text" placeholder="              Procure nossos Produtos !!!">
@@ -36,13 +37,13 @@
             <div class="icons">
                 <div id="icon">
                     <a href="" aria-label="Cadastre-se">
-                        <img src="./src/images/do-utilizador.png" alt="">
+                        <i class="fas fa-circle-user"></i>
                     </a>
                     <p>Cadastre-se!!!</p>
                 </div>
                 <div id="icon">
                     <a href="" aria-label="Carrinho">
-                        <img src="./src/images/carrinho-de-compras.png" alt="">
+                        <i class="fas fa-cart-shopping"></i>
                     </a>
                     <p>Carrinho</p>
                 </div>
@@ -50,8 +51,10 @@
         </div>
         <div class="nav-header">
             <div class="vestimentas">
-                <a href="#vestimenta" aria-label="Vestimentas">Vestimentas</a>
-                <img src="./src/images/arrow-down-sign-to-navigate.png" alt="" width="18px" id="arrow">
+                <div class="title">
+                    <a href="#vestimenta" aria-label="Vestimentas">Vestimentas</a>
+                    <i class="fas fa-angle-down arrow"></i>
+                </div>
                 <div class="opcoes">
                     <a href="">
                         <p id="item">Camisa</p>
@@ -68,8 +71,10 @@
                 </div>
             </div>
             <div class="suplementos">
-                <a href="#suplementos" aria-label="Suplementos">Suplementos</a>
-                <img src="./src/images/arrow-down-sign-to-navigate.png" alt="" width="18px" id="arrow">
+                <div class="title">
+                    <a href="#suplementos" aria-label="Suplementos">Suplementos</a>
+                    <i class="fas fa-angle-down arrow"></i>
+                </div>
                 <div class="opcoes">
                     <a href="">
                         <p id="item">Camisa</p>
@@ -86,9 +91,11 @@
                 </div>
             </div>
             <div>
-                <a href="#acessorios" aria-label="Acessórios">Acessórios</a>
-                <img src="./src/images/arrow-down-sign-to-navigate.png" alt="" width="18px" id="arrow">
-                <div class="opcoes">
+                <div class="title">
+                    <a href="#acessorios" aria-label="Acessórios">Acessórios</a>
+                    <i class="fas fa-angle-down arrow acess"></i>
+                </div>
+                <div class="opcoes acess">
                     <a href="">
                         <p id="item">Camisa</p>
                     </a>
@@ -105,8 +112,10 @@
             </div>
 
             <div>
-                <a href="#equipamentos" aria-label="Equipamentos">Equipamentos</a>
-                <img src="./src/images/arrow-down-sign-to-navigate.png" alt="" width="18px" id="arrow">
+                <div class="title">
+                    <a href="#equipamentos" aria-label="Equipamentos">Equipamentos</a>
+                    <i class="fas fa-angle-down arrow"></i>
+                </div>
                 <div class="opcoes">
                     <a href="">
                         <p id="item">Camisa</p>
@@ -126,46 +135,49 @@
         </div>
     </header>
     <main>
-        <div id="main-img">
-            <img src="" alt="">
-        </div>
+        <section class="banner">
+            <img src="./src/images/banner.jpeg" alt="" width="100%">
+        </section>
         <div class="products">
             <div id="product">
                 <h4>WHEY PROTEIN</h4>
                 <a href="" aria-label="Whey">
-                    <img src="./src/images/100-whey-protein-max-titanium-400x400px-removebg-preview.png" alt=""
+                    <img src="./src/images/whey.png" alt=""
                         width="190px" height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>CREATINA</h4>
                 <a href="" aria-label="Creatina">
-                    <img src="./src/images/creatina-150g-integralmedica-removebg-preview.png" alt="" width="190px"
+                    <img src="./src/images/creatina.png" alt="" width="190px"
                         height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>ACESSÓRIOS</h4>
                 <a href="" aria-label="Acessórios">
-                    <img src="" alt="" width="190px" height="190px">
+                    <img src="./src/images/acessorios.jpeg"
+                        alt="" width="190px" height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>VESTUÁRIO</h4>
                 <a href="" aria-label="Vestuário">
-                    <img src="" alt="" width="190px" height="190px">
+                    <img src="./src/images/vestuario.jpeg" alt="" width="190px"
+                        height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>ALIMENTOS</h4>
                 <a href="" aria-label="Alimentos">
-                    <img src="" alt="" width="190px" height="190px">
+                    <img src="./src/images/alimentos.jpeg" alt="" width="190px"
+                        height="190px">
                 </a>
             </div>
         </div>
     </main>
-
     <script src="./src/js/index.js"></script>
+    <script src="https://kit.fontawesome.com/85a1987996.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
