@@ -1,5 +1,4 @@
 body {
-    font-family: 'Anton', sans-serif;
     background-color: var(--secondary-color);
 }
 
@@ -43,43 +42,8 @@ input:focus {
     margin: 0 230px;
 }
 
-.nav-header {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: var(--);
-    box-shadow: 2px 1px 2px black;
-}
-
-.nav-header i {
-    font-size: 1.16rem;
-}
-
-.nav-header .title {
-    display: flex;
-    align-items: center;
-    gap: .8rem;
-}
-
-.opcoes {
-    box-shadow: 1px 1px 2px black;
-    position: absolute;
-}
-
-.opcoes #item {
-    padding: 10px 70px;
-    background-color: aliceblue;
-    box-shadow: 1px 1px 2px black;
-}
-
-.products {
-    display: flex;
-    justify-content: space-around;
-}
-
 .banner {
     margin: 2px 0 20px 0;
-    box-shadow: 2px 1px 2px black;
 }
 
 #product {

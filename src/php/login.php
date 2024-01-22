@@ -10,8 +10,8 @@
     <main class="container">
         <div>
             <div class="title">
-                <a href="http://localhost:8080/projetosenac">
-                    <img src="http://localhost:8080/projetosenac/src/images/logo.png" alt="logo" width="160">
+                <a href="http://localhost/projetosenac">
+                    <img src="http://localhost/projetosenac/src/images/logo.png" alt="logo" width="160">
                 </a>
                 <h1>
                     Faça o login

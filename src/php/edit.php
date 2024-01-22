@@ -14,10 +14,10 @@ if (!empty($_GET['id'])) {
             $endereco = $user_data['endereco'];
         }
     } else {
-        header('Location: http://localhost:8080/projetosenac/src/php/sistema.php');
+        header('Location: http://localhost/projetosenac/src/php/sistema.php');
     }
 } else {
-    header('Location: http://localhost:8080/projetosenac/src/php/sistema.php');
+    header('Location: http://localhost/projetosenac/src/php/sistema.php');
 }
 ?>
 <!DOCTYPE html>
@@ -35,8 +35,8 @@ if (!empty($_GET['id'])) {
     <main class="container">
         <div>
             <div class="title">
-                <a href="http://localhost:8080/projetosenac">
-                    <img src="http://localhost:8080/projetosenac/src/images/logo.png" alt="logo" width="160">
+                <a href="http://localhost/projetosenac">
+                    <img src="http://localhost/projetosenac/src/images/logo.png" alt="logo" width="160">
                 </a>
                 <h1>
                     Editar Dados

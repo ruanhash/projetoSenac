@@ -13,13 +13,13 @@
 
     <div class="container">
         <div class="title">
-            <a href="http://localhost:8080/projetosenac">
-                <img src="http://localhost:8080/projetosenac/src/images/logo.png" alt="logo" width="160">
+            <a href="http://localhost/projetosenac">
+                <img src="http://localhost/projetosenac/src/images/logo.png" alt="logo" width="160">
             </a>
         </div>
         <div class="options">
-            <a href="http://localhost:8080/projetosenac/src/php/login.php">Login</a>
-            <a href="http://localhost:8080/projetosenac/src/php/cadastro.php">Cadastre-se</a>
+            <a href="http://localhost/projetosenac/src/php/login.php">LOGIN</a>
+            <a href="http://localhost/projetosenac/src/php/cadastro.php">CADASTRE-SE</a>
         </div>
     </div>
     <style>
@@ -35,22 +35,44 @@
 
         .container {
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            padding: 200px 100px;
-            background-color: #ccc;
+            flex-direction: column;
+            margin: 70px 0 30px 350px;
+            align-items: center;
+            width: 730px;
+            height: 500px;
+            background-color: #F7F5F5;
+            border-radius: 10px;
+            gap: 70px;
+            border: 2px solid black;
         }
 
         .options {
             display: flex;
-            justify-content: space-between;
+            gap: 100px;
         }
 
-        a {
+        .options a {
             padding: 10px 30px;
             background-color: #fda51c;
-            gap: 50px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+        }
+
+        a:hover {
+            animation: translateY 0.8s alternate infinite;
+        }
+
+        @keyframes translateY {
+            from {
+                transform: translateY(0) scale(1);
+            }
+
+            to {
+                transform: translateY(-2px) scale(1.05);
+            }
         }
     </style>
 </body>

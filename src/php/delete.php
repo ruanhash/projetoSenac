@@ -16,6 +16,6 @@
             $resultDelete = $conexao->query($sqlDelete);
         }
     }
-    header('Location: http://localhost:8080/projetosenac/src/php/sistema.php');
+    header('Location: http://localhost/projetosenac/src/php/sistema.php');
 
 ?>

@@ -14,12 +14,12 @@ if (isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']
     if (mysqli_num_rows($result) < 1) {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: http://localhost:8080/projetosenac/src/php/login.php');
+        header('Location: http://localhost/projetosenac/src/php/login.php');
     } else {
         $_SESSION['email'] = $email;
         $_SESSION['senha'] = $senha;
-        header('Location: http://localhost:8080/projetosenac/src/php/sistema.php');
+        header('Location: http://localhost/projetosenac/src/php/sistema.php');
     }
 } else {
-    header('Location: http://localhost:8080/projetosenac/src/php/login.php');
+    header('Location: http://localhost/projetosenac/src/php/login.php');
 }
