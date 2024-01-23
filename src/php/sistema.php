@@ -31,7 +31,7 @@ $result = $conexao->query($sql);
     <header>
         <div class="header">
             <div class="logo">
-                <a href="index.html" aria-label="Recarregue a página">
+                <a href="http://localhost/projetosenac/src/php/home.php" aria-label="Recarregue a página">
                     <img src="../images/logo.png" alt="logo" width="200" height="60">
                 </a>
             </div>
@@ -77,7 +77,7 @@ $result = $conexao->query($sql);
         <div class="products">
             <div id="product">
                 <h4>WHEY PROTEIN</h4>
-                <a href="" aria-label="Whey">
+                <a href="http://localhost/projetosenac/whey.html" aria-label="Whey">
                     <img src="../images/whey.png" alt="" width="190px" height="190px">
                 </a>
             </div>
@@ -106,6 +106,106 @@ $result = $conexao->query($sql);
                 </a>
             </div>
         </div>
+        <section>
+            <div class="title">
+                <h1>Mais Vendidos</h1>
+            </div>
+
+            <div id="produtos">
+                <div class="container mt-4 container-produtos">
+
+                    <div class="row">
+
+                        <!-- Produto 1 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="../images/1kl.png" class="card-img-top" alt="Produto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Whey Pro - Max Titanium</h5>
+                                    <p class="card-text">Whey Pro 1kg </p>
+                                    <p class="card-text">Preço: R$120,99</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 2 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="../images/whey3.png" class="card-img-top" alt="Produto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Top Whey 3W - Max Titanium</h5>
+                                    <p class="card-text">Top Whey 3W 900g</p>
+                                    <p class="card-text">Preço: R$110,90</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 3 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="../images/creatina-100-pura-probiotica.png" class="card-img-top" alt="Produto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Creatina - Probiótica</h5>
+                                    <p class="card-text">Creatina Pura 300g Probiotica - Probiótica</p>
+                                    <p class="card-text">Preço: R$72,90</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 4 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="../images/alfajor_com_whey_protein_c_12_dr_peanut_1263_1_b4574d6560d2bb5c490e99be8518d052.webp" class="card-img-top" alt="Produto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Alfajor Avelã</h5>
+                                    <p class="card-text">Alfajor avelã - chocolate</p>
+                                    <p class="card-text">Preço: R$69,90</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 5 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="../images/creatina-monohidratada-sem-sabor-300g-dux.jpg" class="card-img-top" alt="Produto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Creatina - Dux Nutrition</h5>
+                                    <p class="card-text">Creatina Monohidratada 100% Importada Pura 300g - Dux Nutrition
+                                    </p>
+                                    <p class="card-text">Preço: R$124,77</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="../images/chocolate.png" class="card-img-top" alt="Produto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Whey de Chocolate/h5>
+                                        <p class="card-text">Whey de chocolate - Cacau 100%
+                                        </p>
+                                        <p class="card-text">Preço: R$130,77</p>
+                                        <button class="btn btn-primary">Comprar</button>
+                                        <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                            Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+        </section>
     </main>
 </body>
 <style>
@@ -191,6 +291,11 @@ $result = $conexao->query($sql);
         font-weight: 700;
     }
 
+    .title {
+        text-align: center;
+        margin: 80px 0 80px 0;
+    }
+
     .out {
         padding: 8px;
         background-color: var(--quinary-color);
@@ -216,6 +321,41 @@ $result = $conexao->query($sql);
     .products {
         display: flex;
         justify-content: space-around;
+    }
+
+
+    #produtos {
+
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+    .container-produtos {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-primary {
+        background-color: #fda51c;
+    }
+
+    .btn-primary:hover {
+        background-color: #ff651c;
+    }
+
+    .btn-carrinho {
+        background-color: #28a745;
+    }
+
+    .btn-carrinho:hover {
+        background-color: #218838;
     }
 </style>
 

@@ -13,6 +13,11 @@
 
     <link rel="shortcut icon" href="" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <title>FitHero</title>
 </head>
@@ -58,39 +63,137 @@
             <div id="product">
                 <h4>WHEY PROTEIN</h4>
                 <a href="whey.html" aria-label="Whey">
-                    <img src="./src/images/whey.png" alt=""
-                        width="190px" height="190px">
+                    <img src="./src/images/whey.png" alt="" width="190px" height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>CREATINA</h4>
-                <a href="" aria-label="Creatina">
-                    <img src="./src/images/creatina.png" alt="" width="190px"
-                        height="190px">
+                <a href="creatina.html" aria-label="Creatina">
+                    <img src="./src/images/creatina.png" alt="" width="190px" height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>ACESSÓRIOS</h4>
                 <a href="acessorios.html" aria-label="Acessórios">
-                    <img src="./src/images/acessorios.jpeg"
-                        alt="" width="190px" height="190px">
+                    <img src="./src/images/acessorios.jpeg" alt="" width="190px" height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>VESTUÁRIO</h4>
                 <a href="vestuario.html" aria-label="Vestuário">
-                    <img src="./src/images/vestuario.jpeg" alt="" width="190px"
-                        height="190px">
+                    <img src="./src/images/vestuario.jpeg" alt="" width="190px" height="190px">
                 </a>
             </div>
             <div id="product">
                 <h4>ALIMENTOS</h4>
-                <a href="" aria-label="Alimentos">
-                    <img src="./src/images/alimentos.jpeg" alt="" width="190px"
-                        height="190px">
+                <a href="alimentos.html" aria-label="Alimentos">
+                    <img src="./src/images/alimentos.jpeg" alt="" width="190px" height="190px">
                 </a>
             </div>
         </div>
+        <section>
+            <div class="title">
+                <h1>Mais Vendidos</h1>
+            </div>
+
+            <div id="produtos">
+                <div class="container mt-4 container-produtos">
+
+                    <div class="row">
+
+                        <!-- Produto 1 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="./src/images/1kl.png" class="card-img-top" alt="Produto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Whey Pro - Max Titanium</h5>
+                                    <p class="card-text">Whey Pro 1kg </p>
+                                    <p class="card-text">Preço: R$120,99</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 2 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="./src/images/whey3.png" class="card-img-top" alt="Produto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Top Whey 3W - Max Titanium</h5>
+                                    <p class="card-text">Top Whey 3W 900g</p>
+                                    <p class="card-text">Preço: R$110,90</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 3 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="./src/images/creatina-100-pura-probiotica.png" class="card-img-top"
+                                    alt="Produto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Creatina - Probiótica</h5>
+                                    <p class="card-text">Creatina Pura 300g Probiotica - Probiótica</p>
+                                    <p class="card-text">Preço: R$72,90</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 4 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="./src/images/alfajor_com_whey_protein_c_12_dr_peanut_1263_1_b4574d6560d2bb5c490e99be8518d052.webp"
+                                    class="card-img-top" alt="Produto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Alfajor Avelã</h5>
+                                    <p class="card-text">Alfajor avelã - chocolate</p>
+                                    <p class="card-text">Preço: R$69,90</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 5 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="./src/images/creatina-monohidratada-sem-sabor-300g-dux.jpg"
+                                    class="card-img-top" alt="Produto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Creatina - Dux Nutrition</h5>
+                                    <p class="card-text">Creatina Monohidratada 100% Importada Pura 300g - Dux Nutrition
+                                    </p>
+                                    <p class="card-text">Preço: R$124,77</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="./src/images/chocolate.png" class="card-img-top" alt="Produto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Whey de Chocolate/h5>
+                                    <p class="card-text">Whey de chocolate - Cacau 100%
+                                    </p>
+                                    <p class="card-text">Preço: R$130,77</p>
+                                    <button class="btn btn-primary">Comprar</button>
+                                    <button class="btn btn-carrinho ml-2" onclick="adicionarAoCarrinho()">Adicionar ao
+                                        Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+        </section>
     </main>
     <script src="./src/js/index.js"></script>
     <script src="https://kit.fontawesome.com/85a1987996.js" crossorigin="anonymous"></script>

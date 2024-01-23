@@ -62,3 +62,43 @@ input:focus {
     display: flex;
     justify-content: space-around;
 }
+
+.title {
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+#produtos {
+
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.container-produtos {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #fda51c;
+}
+
+.btn-primary:hover {
+    background-color: #ff651c;
+}
+
+.btn-carrinho {
+    background-color: #28a745;
+}
+
+.btn-carrinho:hover {
+    background-color: #218838;
+}

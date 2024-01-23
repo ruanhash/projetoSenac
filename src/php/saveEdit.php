@@ -14,10 +14,10 @@
         WHERE id='$id'";
         $result = $conexao->query($sqlInsert);
 
-        header('Location: http://localhost/projetosenac/src/php/sistema.php');
+        header('Location: http://localhost/projetosenac/src/php/sistemaAdmin.php');
 
     } else {
-        header('Location: http://localhost/projetosenac/src/php/sistema.php');
+        header('Location: http://localhost/projetosenac/src/php/sistemaAdmin.php');
     }
 
 ?>

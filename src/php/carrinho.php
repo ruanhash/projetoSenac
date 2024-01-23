@@ -1,5 +1,0 @@
-<?php 
-
-$items = array(['imagem'=>''])
-
-?>
