@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,61 @@
 
     <!-- Adicione o link para o Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Adicione o link para o Bootstrap JavaScript e o Popper.js (necessário para alguns componentes do Bootstrap) -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
-<body>
 
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" aria-label="Recarregue a página">
+                    <img src="./src/images/logo.png" alt="logo" width="200" height="60">
+                </a>
+            </div>
+            <div class="search">
+                <label for="">
+                    <a href="#search" aria-label="Pesquisar">
+                        <i class="fas fa-magnifying-glass"></i>
+                    </a>
+                </label>
+                <input id="search" type="text" placeholder="              Procure nossos Produtos !!!">
+            </div>
+            <div class="icons">
+                <div id="icon">
+                    <a href="http://localhost/projetosenac/src/php/home.php" aria-label=" Cadastre-se">
+                        <i class="fas fa-circle-user"></i>
+                    </a>
+                    <p>Entre ou Cadastre-se!!!</p>
+                </div>
+                <div id="icon">
+                    <a href="http://localhost/projetosenac/carrinho.html" aria-label="Carrinho">
+                        <i class="fas fa-cart-shopping"></i>
+                    </a>
+                    <p>Carrinho</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
     <div id="banner">
         <h1 class="mb-4">Bem-vindo à Nossa Loja</h1>
         <p>Explore nossa variedade de produtos incríveis.</p>
     </div>
-    
+
     <div class="container mt-5">
 
-        <h1 class="text-center mb-4">Produtos à Venda</h1>
+        <h1 class="text-center mb-4">Acessórios</h1>
 
         <div class="row">
 
             <!-- Produto 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/bolsa-academia.jpg" class="card-img-top" alt="Produto 1">
+                    <img src="./src/images/bolsa-academia.jpg" class="card-img-top" alt="Produto 1">
                     <div class="card-body">
                         <h5 class="card-title">bolsa-academia</h5>
                         <p class="card-text">Bolsa Mala Transversal Feminina Academia Treino Blogueira</p>
@@ -42,7 +75,7 @@
             <!-- Produto 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/bracadeira.jpg" class="card-img-top" alt="Produto 2">
+                    <img src="./src/images/bracadeira.jpg" class="card-img-top" alt="Produto 2">
                     <div class="card-body">
                         <h5 class="card-title">bracadeira</h5>
                         <p class="card-text">Braçadeira Suporte Porta Celular Braço Corrida Bike Academia.</p>
@@ -55,10 +88,12 @@
             <!-- Produto 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/cinta_munhequeira_elastica-transformed.png" class="card-img-top" alt="Produto 3">
+                    <img src="./src/images/cinta_munhequeira_elastica-transformed.png" class="card-img-top"
+                        alt="Produto 3">
                     <div class="card-body">
                         <h5 class="card-title">munhequeira</h5>
-                        <p class="card-text">Strap Monster Profissional Com Munhequeira Musculação Cross Cor Preto da Bulldozer</p>
+                        <p class="card-text">Strap Monster Profissional Com Munhequeira Musculação Cross Cor Preto da
+                            Bulldozer</p>
                         <p class="card-text">Preço: R$75,00</p>
                         <button class="btn btn-primary">Comprar</button>
                     </div>
@@ -68,7 +103,7 @@
             <!-- Produto 4 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/colchonete-academia.jpg" class="card-img-top" alt="Produto 4">
+                    <img src="./src/images/colchonete-academia.jpg" class="card-img-top" alt="Produto 4">
                     <div class="card-body">
                         <h5 class="card-title">colchonete-academia</h5>
                         <p class="card-text">Colchonete Eva Tapete Yoga Academia Fitness Exercícios 20mm Cor Preto</p>
@@ -81,7 +116,7 @@
             <!-- Produto 5 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/coqueteleira.jpg" class="card-img-top" alt="Produto 5">
+                    <img src="./src/images/coqueteleira.jpg" class="card-img-top" alt="Produto 5">
                     <div class="card-body">
                         <h5 class="card-title">coqueteleira</h5>
                         <p class="card-text">Coqueteleira Shaker Academia Compartimento Suplementos Fit</p>
@@ -94,7 +129,7 @@
             <!-- Produto 6 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/elastico.jpg" class="card-img-top" alt="Produto 6">
+                    <img src="./src/images/elastico.jpg" class="card-img-top" alt="Produto 6">
                     <div class="card-body">
                         <h5 class="card-title">elastico</h5>
                         <p class="card-text">Rubber Faixa Elastica Crossfit Treino Extra-forte Prottector</p>
@@ -107,7 +142,8 @@
             <!-- Produto 7 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/faixaCompressao, joelheira e munhequeira .jpg" class="card-img-top" alt="Produto 7">
+                    <img src="./src/images/faixaCompressao, joelheira e munhequeira .jpg" class="card-img-top"
+                        alt="Produto 7">
                     <div class="card-body">
                         <h5 class="card-title">faixa de Compressao</h5>
                         <p class="card-text">Par Faixa Elastica Joelho Para Exercicios Fisico Agachamento</p>
@@ -120,7 +156,7 @@
             <!-- Produto 8 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/Kit-Elastico-Extensor.jpg" class="card-img-top" alt="Produto 8">
+                    <img src="./src/images/Kit-Elastico-Extensor.jpg" class="card-img-top" alt="Produto 8">
                     <div class="card-body">
                         <h5 class="card-title">Kit-Elastico-Extensor</h5>
                         <p class="card-text">Kit 17 Itens - Elasticos Extensor + Corda Pular + Mini Band</p>
@@ -133,7 +169,7 @@
             <!-- Produto 9 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="img/fita-para-treino.jpg" class="card-img-top" alt="Produto 9">
+                    <img src="./src/images/fita-para-treino.jpg" class="card-img-top" alt="Produto 9">
                     <div class="card-body">
                         <h5 class="card-title">fita para Treino</h5>
                         <p class="card-text">Fita Suspensão Treinamento Funcional Tipo Trx Profissional</p>
@@ -144,37 +180,106 @@
             </div>
 
         </div>
-    </body>
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        
-        #banner {
-            background-image: url('img/vista-superior-em-itens-essenciais-de-ioga.jpg');
-            background-size: cover;
-            color: #ffffff;
-            padding: 60px;
-            text-align: center;
-        }
-        
-        h1 {
-            color: #ffffff;
-        }
-        
-        .card {
-            margin-bottom: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-        }
-        
-        .btn-primary:hover {
-            background-color: #0056b3;
-            border-color: #0056b3;
-        }
-        </style>
-    </html>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+    :root {
+        --primary-color: #fda51c;
+        --secondary-color: #f6faf4;
+        --tertiary-color: #000000;
+        --quartenary-color: #874896;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    i {
+        color: var(--tertiary-color);
+        font-size: 1.3rem;
+    }
+
+    a {
+        color: var(--tertiary-color);
+        text-decoration: none;
+    }
+
+    body {
+        background-color: #f8f9fa;
+    }
+
+    body {
+        background-color: var(--secondary-color);
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .logo {
+        margin: 28px 36px;
+    }
+
+    .search {
+        margin-left: 170px;
+    }
+
+    .search input {
+        width: 450px;
+        height: 60px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    input:focus {
+        border: 3px solid var(--tertiary-color);
+        outline: none;
+    }
+
+    .search label {
+        margin: 18px 400px;
+        position: absolute;
+    }
+
+    .icons {
+        display: flex;
+        gap: 60px;
+        white-space: nowrap;
+        text-align: center;
+        margin: 0 230px;
+    }
+
+    #banner {
+        background-image: url('./src/images/vista-superior-em-itens-essenciais-de-ioga.jpg');
+        background-size: cover;
+        padding: 60px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #fda51c;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-primary {
+        background-color: #fda51c;
+    }
+
+    .btn-primary:hover {
+        background-color: #ff731c;
+    }
+</style>
+<script src="https://kit.fontawesome.com/85a1987996.js" crossorigin="anonymous"></script>
+
+</html>

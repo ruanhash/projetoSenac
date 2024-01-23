@@ -12,47 +12,43 @@
 </head>
 
 <body>
-
-    <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Bem-vindo firehero</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Produtos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                </li>
-            </ul>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" aria-label="Recarregue a página">
+                    <img src="./src/images/logo.png" alt="logo" width="200" height="60">
+                </a>
+            </div>
+            <div class="search">
+                <label for="">
+                    <a href="#search" aria-label="Pesquisar">
+                        <i class="fas fa-magnifying-glass"></i>
+                    </a>
+                </label>
+                <input id="search" type="text" placeholder="              Procure nossos Produtos !!!">
+            </div>
+            <div class="icons">
+                <div id="icon">
+                    <a href="http://localhost/projetosenac/src/php/home.php" aria-label=" Cadastre-se">
+                        <i class="fas fa-circle-user"></i>
+                    </a>
+                    <p>Entre ou Cadastre-se!!!</p>
+                </div>
+                <div id="icon">
+                    <a href="http://localhost/projetosenac/carrinho.html" aria-label="Carrinho">
+                        <i class="fas fa-cart-shopping"></i>
+                    </a>
+                    <p>Carrinho</p>
+                </div>
+            </div>
         </div>
-    </nav>
+        </div>
+    </header>
 
-    <!-- Banner principal -->
     <div class="jumbotron">
-
-
-        <h1 class="display-4">Bem-vindo FitHero</h1>
-        <p class="lead">
-
-
-
-        </p>
-        <p>
-
-
-
-        </p>
+        <h1 class="display-4">Wheys</h1>
     </div>
 
-    <!-- Produtos -->
     <div class="container">
         <div class="row">
             <!-- Produto 1 -->
@@ -178,9 +174,49 @@
                 background-color: #f8f9fa;
             }
 
-            .navbar {
+            .header {
+                display: flex;
+                align-items: center;
                 background-color: #fda51c;
-                color: #ffffff;
+            }
+
+            .logo {
+                margin: 28px 36px;
+            }
+
+            .search {
+                margin-left: 170px;
+            }
+
+            .search input {
+                width: 450px;
+                height: 60px;
+                border-radius: 10px;
+                cursor: pointer;
+                font-weight: 700;
+            }
+
+            input:focus {
+                border: 3px solid black;
+                outline: none;
+            }
+
+            .search label {
+                margin: 18px 400px;
+                position: absolute;
+            }
+
+            .icons {
+                display: flex;
+                gap: 60px;
+                white-space: nowrap;
+                text-align: center;
+                margin: 0 230px;
+            }
+
+            i {
+                color: black;
+                font-size: 1.3rem;
             }
 
             .jumbotron {
@@ -196,7 +232,12 @@
             .card {
                 margin-bottom: 20px;
             }
+
+            .container a {
+                background-color: #fda51c;
+            }
         </style>
+        <script src="https://kit.fontawesome.com/85a1987996.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
