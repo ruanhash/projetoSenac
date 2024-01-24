@@ -66,6 +66,7 @@ input:focus {
 .title {
     margin-top: 80px;
     text-align: center;
+    color: #fda51c;
 }
 
 
@@ -101,4 +102,8 @@ input:focus {
 
 .btn-carrinho:hover {
     background-color: #218838;
+}
+
+.btn {
+    background-color: #fda51c;
 }

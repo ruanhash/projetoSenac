@@ -14,10 +14,10 @@ if (!empty($_GET['id'])) {
             $endereco = $user_data['endereco'];
         }
     } else {
-        header('Location: http://localhost/projetosenac/src/php/sistema.php');
+        header('Location: http://localhost/projetosenac/src/php/sistemaAdmin.php');
     }
 } else {
-    header('Location: http://localhost/projetosenac/src/php/sistema.php');
+    header('Location: http://localhost/projetosenac/src/php/sistemaAdmin.php');
 }
 ?>
 <!DOCTYPE html>

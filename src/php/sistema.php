@@ -8,13 +8,6 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
     header('Location: http://localhost/projetosenac/src/php/login.php');
 }
 $logado = $_SESSION['email'];
-if (!empty($_GET['search'])) {
-    $data = $_GET['search'];
-    $sql = "SELECT * FROM cadastro WHERE id LIKE '%$data%' or nome LIKE '%$data%' or email LIKE '%$data%' ORDER BY id DESC";
-} else {
-    $sql = "SELECT * FROM cadastro ORDER BY id DESC";
-}
-$result = $conexao->query($sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
